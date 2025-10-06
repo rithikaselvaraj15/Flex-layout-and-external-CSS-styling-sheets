@@ -1,0 +1,41 @@
+main{
+    background-image:url(clean-blank-backdrop-design-mockup-background_1017-42665.jpg);
+    border: 15px solid purple;
+    font-family: 'Times New Roman', Times, serif;
+}
+img{
+    width: 150px;
+    height: 200px;
+
+}
+hr{
+    border: double greenyellow;
+}
+header{
+    text-align: center;
+    color: blueviolet;
+    background-color: palevioletred;
+    font-size:xx-large;
+}
+h2{
+    font-size: xx-large;
+    color: purple;
+}
+p{
+    font-size: x-large;
+    color: brown;
+}
+
+    
+   
+
+aside{
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    width: 50%;
+    height: 200px vp;
+    border: 2px dotted slateblue;
+    color: green;
+}

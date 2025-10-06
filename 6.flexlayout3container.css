@@ -1,0 +1,89 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom, #047cf5, #047cf5); /* முழு பக்கத்திற்கு நிறம் */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #333;
+  color: #fff;
+  padding: 1rem 2rem;
+}
+
+.nav a {
+  margin-left: 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: #4ff072;
+}
+
+.content {
+  display: flex;  /* Sidebar + Main in row */
+  flex: 1;        /* Full remaining height */
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #047cf5;
+  color: white;
+  padding: 15px;
+  overflow-y: auto;
+}
+
+.sidebar details {
+  margin-bottom: 10px;
+  background-color: #34495e;
+  border-radius: 5px;
+}
+
+.sidebar summary {
+  cursor: pointer;
+  padding: 10px;
+  font-size: 1em;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 8px 20px;
+  font-size: 0.9em;
+}
+
+.sidebar a:hover {
+  background-color: #3e5871;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  background-color: white;  
+}
+
+.welcome-box {
+  
+  text-align: left;       
+  padding: 40px;
+}
+.welcome-box>h1{
+    font-size: 100px;
+    color:black;
+    text-align: left;
+}
+
+.welcome-box p{
+    color: aqua;
+    font-size: xx-large;
+    background-color: palevioletred;
+}
